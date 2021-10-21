@@ -29,8 +29,10 @@ int main()
     string time;
     cout<<"12 HOUR FORMAT TIME (HH:MM:SS AM/PM) : ";
     getline(cin, time);
-
-    cout<<"24 HOUR FORMAT TIME (HH:MM:SS) : "<<timeConversion(time)<<endl;
+    
+    cout<<"--------------------------------------------"<<endl;
+    cout<<"| 24 HOUR FORMAT TIME (HH:MM:SS) : "<<timeConversion(time)<<" |"<<endl;
+    cout<<"--------------------------------------------"<<endl;
 
     return 0;
 }
